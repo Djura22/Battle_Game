@@ -6,6 +6,10 @@ describe Game do
 
   subject(:game) { described_class.new }
 
+  it 'creates an instance of class' do
+    expect(game).to be_instance_of(Game)
+  end
+
   describe 'attack' do
 
     it 'responds with 1 arg being player to attack' do

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Desktop/MAKERS/Week3/pair_programming/Battle_Game/spec/features/hp_spec.rb": {
+      "/Users/student/Projects/Battle/spec/features/hp_spec.rb": {
         "lines": [
           1,
           1,
@@ -11,7 +11,7 @@
           null
         ]
       },
-      "/Users/student/Desktop/MAKERS/Week3/pair_programming/Battle_Game/spec/features/player_1_attack_spec.rb": {
+      "/Users/student/Projects/Battle/spec/features/player_1_attack_spec.rb": {
         "lines": [
           1,
           null,
@@ -31,7 +31,7 @@
           null
         ]
       },
-      "/Users/student/Desktop/MAKERS/Week3/pair_programming/Battle_Game/spec/features/player_names_spec.rb": {
+      "/Users/student/Projects/Battle/spec/features/player_names_spec.rb": {
         "lines": [
           1,
           1,
@@ -41,7 +41,7 @@
           null
         ]
       },
-      "/Users/student/Desktop/MAKERS/Week3/pair_programming/Battle_Game/spec/features/test_infrastructure_spec.rb": {
+      "/Users/student/Projects/Battle/spec/features/test_infrastructure_spec.rb": {
         "lines": [
           1,
           1,
@@ -56,7 +56,7 @@
           null
         ]
       },
-      "/Users/student/Desktop/MAKERS/Week3/pair_programming/Battle_Game/spec/game_spec.rb": {
+      "/Users/student/Projects/Battle/spec/game_spec.rb": {
         "lines": [
           1,
           null,
@@ -64,33 +64,27 @@
           1,
           2,
           null,
-          3,
-          null,
-          1,
+          4,
           null,
           1,
           1,
           null,
           null,
           1,
+          null,
           1,
           1,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/student/Desktop/MAKERS/Week3/pair_programming/Battle_Game/lib/game.rb": {
-        "lines": [
+          1,
+          1,
           1,
           null,
-          1,
-          3,
           null,
           null
         ]
       },
-      "/Users/student/Desktop/MAKERS/Week3/pair_programming/Battle_Game/spec/player_spec.rb": {
+      "/Users/student/Projects/Battle/spec/player_spec.rb": {
         "lines": [
           1,
           null,
@@ -144,6 +138,6 @@
         ]
       }
     },
-    "timestamp": 1597938972
+    "timestamp": 1597939582
   }
 }
