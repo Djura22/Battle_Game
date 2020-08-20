@@ -6,6 +6,12 @@ describe Game do
 
   subject(:game) { Game.new(richard,albert) }
 
+  it 'is initialized with 2 players' do
+    expect(game.player1).to eq(richard)
+    expect(game.player2).to eq(albert)
+  end
+
+
   describe 'attack' do
 
     it 'responds with 1 arg being player to attack' do
