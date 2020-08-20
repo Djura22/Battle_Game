@@ -1,18 +1,38 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/Battle/spec/features/test_infrastructure_spec.rb": {
+      "/Users/student/Projects/Battle/spec/features/player_names_spec.rb": {
         "lines": [
           null,
           1,
           1,
           1,
+          null,
           1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/Battle/spec/features/test_infrastructure_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1597856460
+    "timestamp": 1597919960
   }
 }
