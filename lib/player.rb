@@ -7,4 +7,14 @@ class Player
 		@hitpoints = 100
 	end
 
+	def attack(opponent)
+    opponent.damage
+	end
+
+  def damage
+    @hitpoints -= 10
+  end
+
+
+
 end

@@ -2,6 +2,7 @@ require 'player'
 
 describe Player do
 	subject(:richard) { Player.new("Richard") }
+	subject(:albert) { Player.new("Albert") }
 
   describe '#name' do
 
@@ -21,9 +22,18 @@ describe Player do
   describe 'attack' do
 
   	it 'responds with 1 arg being player to attack' do
-  		expect(richard).to respond_to(attack).with(1).argument
+  		expect(richard).to respond_to(:attack).with(1).argument
   	end
-  	
+
+  end
+
+  describe 'damage' do
+
+  	it 'reduceds hitpoints of opponent by 10' do
+  		richard.attack(albert)
+  		expect { albert.damage }.to change { albert.hitpoints }.by(-10)
+  	end
+
   end
 
 
