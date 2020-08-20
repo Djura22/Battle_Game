@@ -1,6 +1,24 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Projects/Battle/spec/features/hp_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/student/Projects/Battle/spec/features/player_names_spec.rb": {
         "lines": [
           null,
@@ -33,6 +51,6 @@
         ]
       }
     },
-    "timestamp": 1597919960
+    "timestamp": 1597921539
   }
 }
