@@ -11,6 +11,17 @@
           null
         ]
       },
+      "/Users/student/Projects/Battle/spec/features/player_1_attack_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/student/Projects/Battle/spec/features/player_names_spec.rb": {
         "lines": [
           1,
@@ -37,6 +48,6 @@
         ]
       }
     },
-    "timestamp": 1597924135
+    "timestamp": 1597924547
   }
 }
