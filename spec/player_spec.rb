@@ -25,6 +25,12 @@ describe Player do
   		expect(richard).to respond_to(:attack).with(1).argument
   	end
 
+  	it 'expect opponent to receive damage' do
+  		allow(albert).to receive(:damage)
+  		richard.attack(albert)
+  		expect(albert).to have_received(:damage)
+  	end
+
   end
 
   describe 'damage' do

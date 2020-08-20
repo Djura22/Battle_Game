@@ -14,10 +14,19 @@
       "/Users/student/Projects/Battle/spec/features/player_1_attack_spec.rb": {
         "lines": [
           1,
+          null,
           1,
           1,
           1,
           1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null
         ]
@@ -52,8 +61,8 @@
           1,
           null,
           1,
-          5,
-          2,
+          6,
+          3,
           null,
           1,
           null,
@@ -72,6 +81,12 @@
           null,
           1,
           null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
           1,
           1,
           null,
@@ -95,6 +110,6 @@
         ]
       }
     },
-    "timestamp": 1597931436
+    "timestamp": 1597933638
   }
 }
