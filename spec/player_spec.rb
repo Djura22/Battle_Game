@@ -11,4 +11,11 @@ describe Player do
 
   end
 
+  describe 'hitpoints' do
+
+  	it 'returns player hitpoints' do
+  		expect(richard.hitpoints).to eq 100
+  	end
+  end
+
 end
