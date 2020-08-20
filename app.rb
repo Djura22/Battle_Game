@@ -1,11 +1,13 @@
 require 'sinatra/base'
 require './lib/player'
+require './lib/game'
+
 
 class Battle < Sinatra::Base
 
   enable :sessions
 
-	get '/test' do 
+	get '/test' do
 		"Testing infrastructure working!"
 	end
 
@@ -28,7 +30,7 @@ class Battle < Sinatra::Base
 	get '/P1_attack' do
 		@player_name_1 = $player_1
 		@player_name_2 = $player_2
-		@player_name_1.attack(@player_name_2)	
+		Game.new.attack(@player_name_2)
 		erb :p1_attack
 	end
 
