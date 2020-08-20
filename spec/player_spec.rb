@@ -18,4 +18,16 @@ describe Player do
   	end
   end
 
+  describe 'attack' do
+
+  	it 'responds with 1 arg being player to attack' do
+  		expect(richard).to respond_to(attack).with(1).argument
+  	end
+  	
+  end
+
+
+
+
+
 end
