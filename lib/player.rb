@@ -9,11 +9,7 @@ class Player
 		@name = name
 		@hitpoints = hitpoints
 	end
-
-	def attack(opponent)
-    opponent.damage
-	end
-
+	
   def damage
     @hitpoints -= 10
   end

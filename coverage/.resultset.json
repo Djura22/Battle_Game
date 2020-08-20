@@ -1,32 +1,32 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/student/Projects/Battle/spec/features/attack_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/student/Projects/Battle/spec/features/hp_spec.rb": {
         "lines": [
           1,
           1,
           1,
           1,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Projects/Battle/spec/features/player_1_attack_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
           null,
           null
         ]
@@ -89,8 +89,8 @@
           1,
           null,
           1,
-          6,
           3,
+          2,
           null,
           1,
           null,
@@ -109,21 +109,6 @@
           null,
           1,
           null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
           1,
           4,
           null,
@@ -138,6 +123,6 @@
         ]
       }
     },
-    "timestamp": 1597939907
+    "timestamp": 1597941719
   }
 }

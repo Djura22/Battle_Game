@@ -19,24 +19,9 @@ describe Player do
   	end
   end
 
-  describe 'attack' do
-
-  	it 'responds with 1 arg being player to attack' do
-  		expect(richard).to respond_to(:attack).with(1).argument
-  	end
-
-  	it 'expect opponent to receive damage' do
-  		allow(albert).to receive(:damage)
-  		richard.attack(albert)
-  		expect(albert).to have_received(:damage)
-  	end
-
-  end
-
   describe 'damage' do
 
   	it 'reduceds hitpoints of opponent by 10' do
-  		richard.attack(albert)
   		expect { albert.damage }.to change { albert.hitpoints }.by(-10)
   	end
 
