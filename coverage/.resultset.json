@@ -5,8 +5,8 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null
         ]
@@ -15,9 +15,9 @@
         "lines": [
           1,
           1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -26,8 +26,8 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null
         ]
@@ -36,8 +36,8 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           null,
@@ -46,8 +46,26 @@
           null,
           null
         ]
+      },
+      "/Users/student/Projects/Battle/spec/player_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/Battle/lib/player.rb": {
+        "lines": [
+
+        ]
       }
     },
-    "timestamp": 1597926245
+    "timestamp": 1597927286
   }
 }
