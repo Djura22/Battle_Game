@@ -1,4 +1,5 @@
-<%= @game.player_1.name %> hit <%= @game.player_2.name%>!
+
+<%= @game.other_player.name %> hit <%= @game.current_player.name%> the previous turn!
 
 <form action="/play">
   <input type="submit" value="Go back to arena">

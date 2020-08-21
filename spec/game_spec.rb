@@ -33,4 +33,30 @@ describe Game do
        game.attack(player_2)
   	end
   end
+
+  describe 'current_player' do
+
+    it 'expects player 1 to be first player' do
+      expect(subject.current_player).to eq player_1
+    end
+
+  end
+
+  describe 'other_player' do
+
+    it 'expects player 2 to be other player on first turn' do
+      expect(subject.other_player).to eq player_2
+    end
+
+  end
+
+  describe 'next_player' do
+
+    it 'expects player 2 to be current_player on next turn' do
+      subject.next_player
+      expect(subject.current_player).to eq player_2
+    end
+
+  end
+
 end
