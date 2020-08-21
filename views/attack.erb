@@ -1,8 +1,8 @@
-<%= $game.player_1.name %> hit <%= $game.player_2.name%>!
+<%= @game.player_1.name %> hit <%= @game.player_2.name%>!
 
-<%= $game.player_1.name %>: <%= $game.player_1.hitpoints%>hp
+<%= @game.player_1.name %>: <%= @game.player_1.hitpoints%>hp
 
-<%= $game.player_2.name %>: <%= $game.player_2.hitpoints%>hp
+<%= @game.player_2.name %>: <%= @game.player_2.hitpoints%>hp
 
 <form action="/play">
   <input type="submit" value="Go back to arena">

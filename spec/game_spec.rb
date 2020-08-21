@@ -1,13 +1,25 @@
 require 'game'
 
 describe Game do
-  let(:richard) { double :richard }
-	let(:albert) { double :albert }
+  let(:player_1) { double :player_1 }
+	let(:player_2) { double :player_2 }
 
-  subject(:game) { described_class.new(richard, albert) }
+  subject(:game) { described_class.new(player_1, player_2) }
 
   it 'creates an instance of class' do
     expect(game).to be_instance_of(Game)
+  end
+
+  describe '#player_1' do
+    it 'retrieves the first player' do
+      expect(game.player_1).to eq player_1
+    end
+  end
+
+  describe '#player_2' do
+    it 'retrieves the second player' do
+      expect(game.player_2).to eq player_2
+    end
   end
 
   describe 'attack' do
@@ -17,8 +29,8 @@ describe Game do
     end
 
     it 'expect opponent to receive damage' do
-  	   expect(albert).to receive(:damage)
-       game.attack(albert)
+  	   expect(player_2).to receive(:damage)
+       game.attack(player_2)
   	end
   end
 end
